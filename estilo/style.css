@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  color: black;
+  line-height: 1.5em;
+  list-style: none;
+  text-align: center;
+}
+.container{
+  background:rgba(0, 139, 139, 0.801);
+}
+div{
+  display: inline-block;
+}
+img{
+  width: 150px;
+  height: 200px;
+  padding: 10px;
+}
+h1{
+  padding-top: 50px;
+  color: peru;
+  font-size: 36px;
+  font-weight: bolder;
+  font-family: cursive, Arial, Helvetica, sans-serif;
+}
+
+
+p{
+  text-align: center;
+  font-weight: 800;
+  color:whitesmoke;
+}
+
+li{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 1px 10px;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bolder;
+  
+  border: 2px solid mediumslateblue;
+  box-shadow: 1px 1px 5px 1px rgba(16, 241, 230, 0.616);
+  
+}
+
+.p-titulo{
+  font-size: 18px;
+  color: red;
+  margin: 10px ;
+}
+
+.imagens{
+  margin-bottom: 20px;
+}
+
+.baixo{
+  margin-top: 5px;
+}
+
+.clicavel:hover{
+  display: block;
+  background: peru;
+  border: 5px rgb(23, 26, 26);
+  box-shadow: 1px 1px 11px 3px black;
+}
+
+#conteudo{
+  background: rgba(100, 100, 100, 0.583);
+  border-radius: 10px;
+  margin: 5px 50px;
+  box-shadow: 1px 1px 6px 4px rgb(30, 36, 33);
+}
+
+.escuro{
+  background: rgba(0, 0, 0, 0.535);
+  color: peru;
+}
+
+.claro{
+  background:rgba(25, 25, 112, 0.659);
+  color: peru;
+}
+
+.primeiro{
+  margin-top: 20px;
+}
+
+.ultimo{
+  margin-bottom: 15px;
+}
+
+.modal-container{
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.515);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.modal-container.mostrar{
+  display: flex;
+}
+
+.modal{
+  background: whitesmoke;
+  width:30%;
+  min-width: 100px;
+  padding: 30px;
+  border: 10px solid mediumpurple;
+  position: relative;
+}
+.fechar{
+  position: absolute;
+  top:-15px;
+  right:-15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 4px solid whitesmoke;
+  background:  mediumpurple;
+  color: peru;
+  cursor: pointer;
+  font-size: 1.1em;
+  
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.419);
+}
+
+footer{
+  text-align: center;
+  color: aliceblue;
+  background: rgba(0, 0, 0, 0.582);
+  padding: 50px;
+  
+}
